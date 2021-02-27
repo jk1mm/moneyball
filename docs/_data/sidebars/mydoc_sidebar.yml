@@ -1,0 +1,46 @@
+# Sidebar on the main page
+
+entries:
+- title: sidebar
+  product: Version
+  version: 1.1.0
+  folders:
+
+  - title: Overview
+    url: /index.html
+    output: web, pdf
+    folderitems:
+
+    - title: Outline
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Version History
+      url: /version_history.html
+      output: web, pdf
+
+  - title: Modules
+    output: web
+    folderitems:
+
+    - title: MODULE_1
+      url: /module_1.html
+      output: web, pdf
+
+    - title: MODULE_2
+      url: /module_2.html
+      output: web, pdf
+
+      subfolders:
+        - title: MODULE_3
+          output: web
+          subfolderitems:
+
+          - title: MODULE_3_1
+            url: module_3_1.html
+            output: web
+
+          - title: MODULE_3_2
+            url: /module_3_2.html
+            output: web
