@@ -1,38 +1,29 @@
-repository: jk1mm/package-template
+repository: jk1mm/moneyball
 
 output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: package-template
-# this appears on the top navigation bar next to the home button
+topnav_title: moneyball
 
-site_title: package-template
-# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+site_title: moneyball
 
-github_editme_path: jk1mm/package-template/tree/release
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+github_editme_path: jk1mm/moneyball/tree/release
 
 host: 127.0.0.1
-# the preview server used. Leave as is.
 
 port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 exclude:
   - .idea/
   - .gitignore
   - vendor
-# these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: package-template
+feedback_subject_line: moneyball
 
 feedback_email: joshkim47@gmail.com
-# used as a contact email for the Feedback link in the top navigation bar
 
 feedback_disable: false
 
 highlighter: rouge
-# library used for syntax highlighting
 
 markdown: kramdown
 kramdown:
@@ -41,12 +32,9 @@ kramdown:
  hard_wrap: false
  syntax_highlighter: rouge
 
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
-
 collections:
   tooltips:
     output: false
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
   -
@@ -60,17 +48,13 @@ defaults:
       sidebar: demo_sidebar
       topnav: topnav
 
-# these are defaults used for the frontmatter for these file types
-
 sidebars:
 - demo_sidebar
 - mydoc_sidebar
 
-# needed for sitemap.xml file only
 url: "http://jk1mm.github.io"
-baseurl: "/package-template"
+baseurl: "/moneyball"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
     url: http://github.com/jk1mm

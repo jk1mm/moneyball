@@ -1,8 +1,6 @@
 ---
-title: "Jekyll Template"
+title: "moneyball module"
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: Template overview.
+summary: Moneyball module documentation.
 ---
-
-Jekyll template. Enjoy!
